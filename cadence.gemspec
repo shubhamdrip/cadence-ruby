@@ -14,7 +14,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
   spec.files         = Dir["{lib,rbi}/**/*.*"] + %w(cadence.gemspec Gemfile LICENSE README.md)
 
-  spec.add_dependency 'thrift'
   spec.add_dependency 'oj'
 
   spec.add_development_dependency 'pry'
