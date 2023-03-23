@@ -13,3 +13,6 @@ _yardoc/
 .rspec_status
 
 .idea/*
+
+.ruby-version
+include
